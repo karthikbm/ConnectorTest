@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Values version="2.0">
+  <value name="node_type">CloudConnectionNode</value>
+  <value name="node_subtype">unknown</value>
+  <value name="node_nsName">MicrosoftDynamic365BusinessCentral.V1.connections:Auto_1</value>
+  <value name="node_pkg">ConnectorTest</value>
+  <value name="is_public">false</value>
+  <value name="cloudNodeVersion">1</value>
+  <record name="cloudNodeProperties" javaclass="com.wm.util.Values">
+    <number name="connectionNodeVersion" type="Integer">1</number>
+    <value name="connectorID">com.softwareag.cloudstreams.dynamicsBusinessCentral_v1</value>
+    <value name="providerName">WmMBCProvider</value>
+    <value name="providerConnectionType">sagcloud</value>
+    <record name="connectionGroupProperties" javaclass="com.wm.util.Values">
+      <value name="cn.providerUrl">https://api.businesscentral.dynamics.com/v1.0/api/v1.0</value>
+      <value name="cn.connectTimeout">120000</value>
+      <value name="cn.readTimeout">120000</value>
+      <value name="cn.socketStaleCheck">true</value>
+      <value name="cn.validateAfterInactivity">1000</value>
+      <value name="cn.retryCount">1</value>
+      <value name="cn.retryIfRequestSentOk">true</value>
+      <value name="cn.tcpNoDelay">false</value>
+      <value name="cn.socketLinger">-1</value>
+      <value name="cn.sockBuffSize">8192</value>
+      <value name="cn.reuseAddr">false</value>
+      <value name="cn.webproxyAlias"></value>
+      <value name="cn.truststoreAlias"></value>
+      <value name="cn.keystoreAlias"></value>
+      <value name="cn.clientKeyAlias"></value>
+      <value name="cn.hostnameVerifier">org.apache.http.conn.ssl.DefaultHostnameVerifier</value>
+      <value name="cn.keepAliveInterval">-1</value>
+      <value name="cn.idleTimeout">-1</value>
+      <value name="cn.enableCompression">false</value>
+      <value name="cn.enableSNI">true</value>
+      <value name="cn.sniServerName"></value>
+      <value name="pr.httpContentCharSet">ISO-8859-1</value>
+      <value name="pr.protocolVersion">HTTP/1.1</value>
+      <value name="pr.userAgent">Cloudstreams</value>
+      <value name="pr.useExpectCont">false</value>
+      <value name="pr.useChunking">false</value>
+      <value name="pr.followServerRedirects">true</value>
+      <value name="pr.allowCircularRedirects">true</value>
+      <value name="pr.serverRedirectMax">5</value>
+      <value name="oauth.consumerId">c8426a11-09ab-44aa-a332-e1c7a2b1f155</value>
+      <value name="oauth.consumerSecret">MicrosoftDynamic365BusinessCentral.V1.connections:Auto_1.oauth.consumerSecret</value>
+      <value name="oauth.accessToken">MicrosoftDynamic365BusinessCentral.V1.connections:Auto_1.oauth.accessToken</value>
+      <value name="oauth_v20.instanceURL"></value>
+      <value name="oauth_v20.refreshAccessToken">true</value>
+      <value name="oauth_v20.refreshToken">MicrosoftDynamic365BusinessCentral.V1.connections:Auto_1.oauth_v20.refreshToken</value>
+      <value name="oauth_v20.accessTokenRefreshURL">https://tstdrv1078643.suitetalk.api.netsuite.com/services/rest/auth/oauth2/v1/token</value>
+      <value name="oauth_v20.accessTokenRefreshURLRequest">Body Query String</value>
+      <value name="oauth_v20.accessTokenRefreshCustomESBService"></value>
+      <value name="oauth_v20.authorizationHeaderPrefix">Bearer</value>
+      <value name="cx.Caching">true</value>
+    </record>
+    <array name="passmanHandles" type="value" depth="1">
+      <value>MicrosoftDynamic365BusinessCentral.V1.connections:Auto_1.oauth.consumerSecret</value>
+      <value>MicrosoftDynamic365BusinessCentral.V1.connections:Auto_1.oauth.accessToken</value>
+      <value>MicrosoftDynamic365BusinessCentral.V1.connections:Auto_1.oauth_v20.refreshToken</value>
+    </array>
+    <record name="connectionManagerProperties" javaclass="com.wm.util.Values">
+      <value name="poolable">true</value>
+      <value name="minimumPoolSize">1</value>
+      <value name="maximumPoolSize">10</value>
+      <value name="poolIncrementSize">1</value>
+      <value name="blockTimeout">1000</value>
+      <value name="expireTimeout">1000</value>
+      <value name="startupRetryCount">0</value>
+      <value name="startupBackoffSecs">10</value>
+      <value name="timeoutType">auto</value>
+      <value name="sessionExpiry">14</value>
+    </record>
+    <array name="formattableFields" type="value" depth="1">
+    </array>
+    <value name="connectionEnabled">true</value>
+  </record>
+</Values>

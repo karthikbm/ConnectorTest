@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Values version="2.0">
+  <value name="node_type">CloudConnectionNode</value>
+  <value name="node_subtype">unknown</value>
+  <value name="node_nsName">MicrosoftServiceBus.V2017_04_01.Connections:microsoft_servicebus_conn1</value>
+  <value name="node_pkg">ConnectorTest</value>
+  <value name="is_public">false</value>
+  <value name="cloudNodeVersion">1</value>
+  <record name="cloudNodeProperties" javaclass="com.wm.util.Values">
+    <number name="connectionNodeVersion" type="Integer">1</number>
+    <value name="connectorID">com.softwareag.cloudstreams.ms.azure.servicebus_v20170401</value>
+    <value name="providerName">WmMicrosoftAzureServiceBusProvider</value>
+    <value name="providerConnectionType">sagcloud</value>
+    <record name="connectionGroupProperties" javaclass="com.wm.util.Values">
+      <value name="cn.providerUrl">https://csc-servicebus-1.servicebus.windows.net</value>
+      <value name="cn.connectTimeout">30000</value>
+      <value name="cn.readTimeout">30000</value>
+      <value name="cn.socketStaleCheck">false</value>
+      <value name="cn.validateAfterInactivity">1000</value>
+      <value name="cn.retryCount">4</value>
+      <value name="cn.retryIfRequestSentOk">false</value>
+      <value name="cn.tcpNoDelay">false</value>
+      <value name="cn.socketLinger">-1</value>
+      <value name="cn.sockBuffSize">8192</value>
+      <value name="cn.reuseAddr">false</value>
+      <value name="cn.hostnameVerifier">org.apache.http.conn.ssl.DefaultHostnameVerifier</value>
+      <value name="cn.keepAliveInterval">-1</value>
+      <value name="cn.idleTimeout">-1</value>
+      <value name="cn.enableCompression">false</value>
+      <value name="cn.enableSNI">true</value>
+      <value name="pr.httpContentCharSet">ISO-8859-1</value>
+      <value name="pr.protocolVersion">HTTP/1.1</value>
+      <value name="pr.userAgent">Cloudstreams</value>
+      <value name="pr.useExpectCont">false</value>
+      <value name="pr.useChunking">false</value>
+      <value name="pr.followServerRedirects">true</value>
+      <value name="pr.allowCircularRedirects">true</value>
+      <value name="pr.serverRedirectMax">5</value>
+      <value name="rh.requestHeaderNames">Content-Type</value>
+      <value name="rh.requestHeaderValues">application/json</value>
+      <value name="oauth.consumerId">ab775868-b908-40bf-8f12-3586a5944a47</value>
+      <value name="oauth.consumerSecret">MicrosoftServiceBus.V2017_04_01.Connections:microsoft_servicebus_conn1.oauth.consumerSecret</value>
+      <value name="oauth.accessToken">MicrosoftServiceBus.V2017_04_01.Connections:microsoft_servicebus_conn1.oauth.accessToken</value>
+      <value name="oauth_v20.refreshToken">MicrosoftServiceBus.V2017_04_01.Connections:microsoft_servicebus_conn1.oauth_v20.refreshToken</value>
+      <value name="oauth_v20.instanceURL"></value>
+      <value name="oauth_v20.refreshAccessToken">true</value>
+      <value name="oauth_v20.accessTokenRefreshURL">https://login.microsoftonline.com/a71eb6ba-c69c-468a-85e5-c494db6bd9ff/oauth2/token</value>
+      <value name="cx.grant_type">refresh_token</value>
+      <value name="oauth_v20.accessTokenRefreshURLRequest">Custom ESB Service</value>
+      <value name="oauth_v20.accessTokenRefreshCustomESBService">wm.cloudstreams.ms.azure.servicebus.util:customRefreshToken</value>
+      <value name="oauth_v20.authorizationHeaderPrefix">Bearer</value>
+    </record>
+    <array name="passmanHandles" type="value" depth="1">
+      <value>MicrosoftServiceBus.V2017_04_01.Connections:microsoft_servicebus_conn1.oauth.consumerSecret</value>
+      <value>MicrosoftServiceBus.V2017_04_01.Connections:microsoft_servicebus_conn1.oauth.accessToken</value>
+      <value>MicrosoftServiceBus.V2017_04_01.Connections:microsoft_servicebus_conn1.oauth_v20.refreshToken</value>
+    </array>
+    <record name="connectionManagerProperties" javaclass="com.wm.util.Values">
+      <value name="poolable">true</value>
+      <value name="minimumPoolSize">1</value>
+      <value name="maximumPoolSize">10</value>
+      <value name="poolIncrementSize">1</value>
+      <value name="blockTimeout">1000</value>
+      <value name="expireTimeout">1000</value>
+      <value name="startupRetryCount">0</value>
+      <value name="startupBackoffSecs">10</value>
+      <value name="timeoutType">auto</value>
+      <value name="sessionExpiry">0</value>
+    </record>
+    <array name="formattableFields" type="value" depth="1">
+    </array>
+    <value name="connectionEnabled">true</value>
+  </record>
+</Values>

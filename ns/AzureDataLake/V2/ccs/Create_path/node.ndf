@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Values version="2.0">
+  <value name="svc_type">CloudService</value>
+  <value name="svc_subtype">REST</value>
+  <value name="svc_sigtype">unknown</value>
+  <value name="stateless">yes</value>
+  <value name="caching">no</value>
+  <value name="prefetch">no</value>
+  <value name="cache_ttl">15</value>
+  <value name="prefetch_level">1</value>
+  <value name="audit_level">off</value>
+  <value name="check_internal_acls">no</value>
+  <value name="icontext_policy">$null</value>
+  <value name="system_service">no</value>
+  <value name="retry_max">0</value>
+  <value name="retry_interval">0</value>
+  <value name="svc_in_validator_options">none</value>
+  <value name="svc_out_validator_options">none</value>
+  <value name="auditoption">0</value>
+  <null name="auditfields_input"/>
+  <null name="auditfields_output"/>
+  <record name="auditsettings" javaclass="com.wm.util.Values">
+    <value name="document_data">0</value>
+    <value name="startExecution">false</value>
+    <value name="stopExecution">false</value>
+    <value name="onError">true</value>
+  </record>
+  <array name="allowedHTTPMethods" type="value" depth="1">
+    <value>TRACE</value>
+    <value>HEAD</value>
+    <value>DELETE</value>
+    <value>POST</value>
+    <value>GET</value>
+    <value>OPTIONS</value>
+    <value>PUT</value>
+    <value>PATCH</value>
+  </array>
+  <value name="pipeline_option">0</value>
+  <null name="originURI"/>
+  <value name="modifiable">true</value>
+  <value name="is_public">false</value>
+  <value name="node_type">service</value>
+  <value name="cloudNodeVersion">1</value>
+  <record name="cloudNodeProperties" javaclass="com.wm.util.Values">
+    <null name="interactionName"/>
+    <value name="serviceName">PathService</value>
+    <value name="virtualServiceName">WmCloudStreams.RestVS</value>
+    <value name="connectionName">AzureDataLake.V2.Connections:Auto_1</value>
+    <value name="connectionType">sagcloud</value>
+    <value name="connectorID">com.softwareag.cloudstreams.ms.azure.datalakestore_v2</value>
+    <record name="customData" javaclass="com.wm.util.Values">
+      <null name="customInputHeaders"/>
+      <null name="customOutputHeaders"/>
+      <null name="customParameters"/>
+      <null name="method"/>
+      <null name="path"/>
+      <value name="restSignatureStyle">WITH_DOCUMENT_ROOT</value>
+    </record>
+  </record>
+</Values>

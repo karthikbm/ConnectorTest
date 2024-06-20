@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Values version="2.0">
+  <value name="node_type">CloudConnectionNode</value>
+  <value name="node_subtype">unknown</value>
+  <value name="node_nsName">NetSuiteSOAP.v2022_1.Connections:custom_oauth_v2022_1</value>
+  <value name="node_pkg">ConnectorTest</value>
+  <value name="is_public">false</value>
+  <value name="cloudNodeVersion">1</value>
+  <record name="cloudNodeProperties" javaclass="com.wm.util.Values">
+    <number name="connectionNodeVersion" type="Integer">1</number>
+    <value name="connectorID">com.softwareag.cloudstreams.netsuite_tba_v2022_1</value>
+    <value name="providerName">WmNetSuiteProvider</value>
+    <value name="providerConnectionType">sagcloud</value>
+    <record name="connectionGroupProperties" javaclass="com.wm.util.Values">
+      <value name="cn.providerUrl">https://tstdrv1078643.suitetalk.api.netsuite.com/services/NetSuitePort_2022_1</value>
+      <value name="cn.connectTimeout">30000</value>
+      <value name="cn.readTimeout">30000</value>
+      <value name="cn.socketStaleCheck">true</value>
+      <value name="cn.validateAfterInactivity">1000</value>
+      <value name="cn.retryCount">4</value>
+      <value name="cn.retryIfRequestSentOk">true</value>
+      <value name="cn.tcpNoDelay">false</value>
+      <value name="cn.socketLinger">-1</value>
+      <value name="cn.sockBuffSize">8192</value>
+      <value name="cn.reuseAddr">false</value>
+      <value name="cn.webproxyAlias"></value>
+      <value name="cn.truststoreAlias"></value>
+      <value name="cn.keystoreAlias"></value>
+      <value name="cn.clientKeyAlias"></value>
+      <value name="cn.hostnameVerifier">org.apache.http.conn.ssl.DefaultHostnameVerifier</value>
+      <value name="cn.keepAliveInterval">2</value>
+      <value name="cn.idleTimeout">-1</value>
+      <value name="cn.enableCompression">false</value>
+      <value name="cn.enableSNI">true</value>
+      <value name="cn.sniServerName"></value>
+      <value name="cx.account">TSTDRV1078643</value>
+      <value name="cx.consumerKey">16356e6f49992048bbb5ac29c88ab23b7df8cb232890d6b76ce36e6ab7e1b255</value>
+      <value name="cx.consumerSecret">NetSuiteSOAP.v2022_1.Connections:custom_oauth_v2022_1.cx.consumerSecret</value>
+      <value name="cx.tokenId">97c4f3bcd86ea3666aad7d9be5c741adf8b0a75055ac06f253eab841d38b3133</value>
+      <value name="cx.tokenSecret">NetSuiteSOAP.v2022_1.Connections:custom_oauth_v2022_1.cx.tokenSecret</value>
+    </record>
+    <array name="passmanHandles" type="value" depth="1">
+      <value>NetSuiteSOAP.v2022_1.Connections:custom_oauth_v2022_1.cx.consumerSecret</value>
+      <value>NetSuiteSOAP.v2022_1.Connections:custom_oauth_v2022_1.cx.tokenSecret</value>
+    </array>
+    <record name="connectionManagerProperties" javaclass="com.wm.util.Values">
+      <value name="poolable">false</value>
+      <value name="minimumPoolSize"></value>
+      <value name="maximumPoolSize"></value>
+      <value name="poolIncrementSize"></value>
+      <value name="blockTimeout"></value>
+      <value name="expireTimeout"></value>
+      <value name="startupRetryCount"></value>
+      <value name="startupBackoffSecs"></value>
+      <value name="timeoutType"></value>
+      <value name="sessionExpiry"></value>
+    </record>
+    <array name="formattableFields" type="value" depth="1">
+    </array>
+    <value name="connectionEnabled">true</value>
+  </record>
+</Values>
